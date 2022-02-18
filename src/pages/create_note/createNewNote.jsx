@@ -29,7 +29,7 @@ const CreateNewNote = () => {
             }
 
             request(
-                "https://dip-project.herokuapp.com/notes/",
+                "https://dip-project.herokuapp.com/api/notes/",
                 "POST",
                 JSON.stringify(payload)
             )
